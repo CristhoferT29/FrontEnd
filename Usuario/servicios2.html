@@ -1,0 +1,210 @@
+<!-- Grupo 4
+ Ficha: 2252471 
+ Objetivo: Realizar el sitio web del GYM STYLE's Consumiendo una API
+ Integrantes: Miller Santiago Nivia, Fabian andres Vargas, Cristhofer Tibaquicha
+ Tecnologias Implementadas en esta vista: HTML5, CSS3, Bootstrap 5
+ Navegador: Chrome, Firefox, Edge, Explorer -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../img/logo.jpeg" rel="shortcut icon"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/servicios2.css" type="text/css">
+    <title>Servicios</title>
+</head>
+<body>
+    <!--INICIO BARRA LATERAL DE REDES SOCIALES-->
+    <div class="social-bar">
+        <!--Link con redireccion a Facebook-->
+        <a href="https://www.facebook.com/" class="icon icon-facebook" target="_blank"><img src="../imagenes/facebook.png" id="facebook" title="logo"></a>
+        <!--Link con redireccion a Twitter-->
+        <a href="https://twitter.com/" class="icon icon-twitter" target="_blank"><img src="../imagenes/twitter.png" id="twitter" title="logo"></a>
+        <!--Link con redireccion a Youtube-->
+        <a href="https://www.youtube.com/" class="icon icon-youtube" target="_blank"><img src="../imagenes/youtube.png" id="youtube" title="logo"></a>
+        <!--Link con redireccion a Instagram-->
+        <a href="https://www.instagram.com/" class="icon icon-instagram" target="_blank"><img src="../imagenes/instagram.png" id="instagram" title="logo"></a>
+    </div>
+    <!--FIN BARRA LATERAL-->
+    <div class="container-fluid">
+        <!--BARRA DE NAVEGACION-->
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Contenedor de imagen del menu-->
+                <div class="col">
+                    <img src="../imagenes/imagotipo.png" class="img-fluid" title="logo">
+                </div>
+                <!--Fin del contenedor-->
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <div class="navbar-nav mr-auto">
+                        <div class="col-7 "></div>
+                        <!--Redireccion a la pagina Principal-->
+                        <a class=" text-center" href="inicio1.html" id="inicio">INICIO</a>
+                        <!--Redireccion a la pagina de Servicios-->
+                        <a class=" text-center" href="servicios2.html" id="servicios">SERVICIOS</a>
+                        <!--Redireccion a la pagina de Nosotros-->
+                        <a class=" text-center" href="nosotros.html" id="nosotros">NOSOTROS</a>
+                        <!--Redireccion a la pagina de Reservas-->
+                        <a class=" text-center" href="index.html" id="registrarse">RESERVAR</a>
+                        <!--Saludo de Bienvenida-->
+                        <p class=" text-center" id="bienvenido">BIENVENIDO</p>
+                        <!--Contenedor del boton con imagen y el cierre de sesion-->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton1">
+                                <img src="../imagenes/user.png" id="user" title="User">
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" id="dropdownMenuButton2">
+                                <li class="text-center text-white" id="cuenta">Mi cuenta</li> 
+                                <li><a class="dropdown-item boton20 text-center" id="boton2" href="../roles/roles.html">CERRAR SESIÓN</a></li>
+                                
+                                <li><a class="dropdown-item boton20 text-center" id="boton3" href="#">CANCELAR</a></li>
+                            </ul>
+                        </div>
+                        <!--Fin del contenedor-->
+                    </div>
+                </div>
+                </nav>
+            </div>
+        </div>
+    <!--FIN BARRA DE AVEGACION-->
+
+    <!--IMAGEN GRANDE DE SERVICIOS-->
+        <div class="col-12 imagen grande" id="linea">
+            <img id="imagenservicios" src="../img/servicios.jpeg" alt="servicios">
+        </div>
+    <!--TEXTO E IMAGEN DE YOGA-->
+        <section>
+            <br><br>
+            <h1>YOGA</h1>
+            <br>
+
+            <div class="row">
+                <!--Contenedor de la imagen-->
+                <div class="col-lg-5 gx-0">
+                    <img id="yoga" src="../img/yoga2.jpg" alt="imagen yoga">  
+                </div>
+                <!--Fin del contendor-->
+                <!--Contenedor del texto de Yoga-->
+                <div class="col-lg-7">
+                    <p >El yoga es una práctica que conecta el cuerpo, respiración y  mente. Esta práctica utiliza posturas físicas,
+                        ejercicios de respiración y meditación para mejorar la salud general.
+                        <br><br>
+                        Mejora  la flexibilidad, Aumento de  fuerza, Mejora el equilibrio, Corrección postural, Mejora nuestra respiración, 
+                        Mejora el sistema inmunológico, Equilibra el sistema nervioso y Reducción de estrés.
+                    </p>
+                </div>
+                <!--Fin del contenedor-->
+            </div>
+                <!--TEXTO E IMAGEN DE BOXEO-->
+            <br><br>
+            <h1>BOXEO</h1>
+            <br>
+            <div class="row">
+                <!--Contenedor Imagen de boxeo-->
+                <div class="col-12 d-block d-sm-block d-md-none gx-0">
+                    <img id="boxeo1" src="../img/boxeo2.jpg" alt="imagen boxeo">  
+                </div>  
+                <!--Contenedor del texto de Boxeo-->
+                <div class="col-lg-7">
+                    <p >Boxeo, deporte en el que dos personas combaten entre sí, únicamente con sus puños. Un combate de boxeo se desarrolla 
+                        bajo unas reglas establecidas y cuenta con un árbitro, jueces y un cronometrador.
+                        <br><br>
+                        Libera tensiones y estres,  Mejora la resistencia física, Mejora tu salud cardiovascular, Incrementa la mas ósea, 
+                        Quemas más calorias, Define y tonifica músculos, Mejora tu autoestima, Aumenta los reflejos y Mejora la estabilidad 
+                        corporal.                        
+                    </p>
+                </div>
+                <!--Fin del contenedor-->
+                <!--Imagen para diferente resolucion-->
+                <div class="col-lg-5 d-none d-sm-none d-md-block gx-0">
+                    <img id="boxeo" src="../img/boxeo2.jpg" alt="imagen boxeo">  
+                </div>                  
+            </div>
+                <!--TEXTO E IMAGEN DE TRX-->
+            <br><br>
+            <h1>TRX</h1>
+            <br>
+            <div class="row">
+                <!--Contenedor de la imagen de TRX-->
+                <div class="col-lg-5 gx-0">
+                    <img id="trx" src="../img/trx2.jpg" alt="imagen trx">  
+                </div> 
+                <!--Fin del Contenedor-->
+                <!--Contenedor del texto de TRX -->
+                <div class="col-lg-7">
+                    <p >El TRX es un entrenamiento basado en la realización de ejercicios en suspensión, donde  las actividades que 
+                        desempeña el deportista, las manos o los pies se encuentran sostenidos en un punto de anclaje mientras que 
+                        la otra parte del cuerpo está apoyada en el suelo.
+                        <br><br>
+                        Desarrollo de la coordinación y el equilibrio, Ayuda a mejorar los problemas de espalda, Necesidad de un entrenador
+                        personal.
+                    </p>
+                </div>
+                <!--Fin del contenedor-->
+            </div>
+                <!--TEXTO E IMAGEN DE ENTRENAMIENTO FUNCIONAL-->
+            <br><br>
+            <h1>ENTRENAMIENTO FUNCIONAL</h1>
+            <br>
+            <div class="row">
+                <!--Contenedor de la imagen de Entrenamiento Funcional-->
+                <div class="col-12 d-block d-sm-block d-md-none gx-0">
+                    <img id="entrenamientof1" src="../img/entrenamientof2.jpg" alt="imagen entrenamiento funcional">  
+                </div>  
+                <!--Fin del Contenedor-->
+                <!--Cpontenedor del texto de entrenamiento funcional-->
+                <div class="col-lg-7">
+                    <p >El entrenamiento funcional es una gama de ejercicios físicos que te permiten entrenar tus músculos para trabajar
+                        juntos y prepararlos para realizar tareas cotidianas con mayor facilidad y sin lesiones, ya sea en casa,
+                        en el trabajo o durante las sesiones deportivas.
+                        <br><br>
+                        Resultados rápidos, Manejar y desarrollar tus cualidades físicas, Reduce los kilos de más, Mejora nuestra postura 
+                        y estabilidad.
+                    </p>
+                </div>
+                <!--Fin del contenedor-->
+                <!--Contenedor imagen diferente resolucion-->
+                <div class="col-lg-5 d-none d-sm-none d-md-block gx-0">
+                    <img id="entrenamientof" src="../img/entrenamientof2.jpg" alt="imagen entrenamiento funcional">  
+                </div>                  
+                <!--Fin del contenedor-->
+            </div>
+        
+        </section>
+
+            <!--FOOTER-->
+        <br><br><br>
+        <div class="row">
+            <footer class="col-12 text-center" id="linea1">
+            <div class="text-white">Copyright © Derechos reservados en 2021 <img src="../img/w3c.png" title="imagen W3C"></div>
+            </footer>
+        </div>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+        -->
+        <!--Librerias de JavaScript ofrecidas por Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </div>
+</body>
+</html>

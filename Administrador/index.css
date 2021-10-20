@@ -1,0 +1,54 @@
+body{
+    background-color: #000;
+    color: #fff;
+}
+#App{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    color: red;
+}
+
+
+
+.div {
+    height: 10%;
+    width: 55%;
+    min-width: 650px;
+    background-color: #fff;
+    margin: 20px auto;
+    color: #000;
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align:justify;
+    
+}
+#horario{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botones{
+    justify-content: center;
+}
+
+.text{
+    text-align: center;
+    padding:10px 10px;
+}
+
+#linea{
+    border-top: 1px solid rgb(216,30,39);
+}
+
+#inicio, #Administrador{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 8px;
+}
+
+
+#inicio:hover , #Administrador:hover{
+    color: rgb(216,30,39);
+}

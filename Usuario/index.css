@@ -1,0 +1,74 @@
+body{
+    background-color: #000;
+    color: #fff;
+}
+#App{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    color: red;
+}
+
+.api{
+    color: #fff;
+}
+
+.dos{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+}
+
+.div {
+    height: 10%;
+    width: 55%;
+    min-width: 650px;
+    background-color: #fff;
+    margin: 20px auto;
+    color: #000;
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    border: 3px solid #20F008;
+}
+#horario{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 20% 10px 20%;
+    border: 2px solid #20F008;
+}
+
+.Apartado{
+    height: 10%;
+    width: 55%;
+    min-width: 650px;
+    background-color: #fff;
+    margin: 20px auto;
+    color: #000;
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    border: 2px solid #f33;
+    
+}
+
+#lineas{
+    border-top: 1px solid rgb(216,30,39);
+    margin-top: 80px;
+}
+
+
+#apartado{
+    text-align: center;
+    border: 3px solid #f33;
+    margin: 20px 20% 20px 20%;
+    border-radius: 10px;
+}
+
+.center{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

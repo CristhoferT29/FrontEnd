@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*BARRA DE NAVEGACION*/
+a:hover {
+    color:rgb(216,30,39);
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+}
+
+a{
+    font-family: "Libre Baskerville";
+    font-size: 19px;
+    color: white;
+    text-decoration: None;
+    padding: 8px;
+}
+
+#bienvenido{
+    color:rgb(216,30,39);
+    font-family: "Libre Baskerville";
+    font-size: 19px;
+    text-decoration: None;
+    padding: 8px;
+    cursor:default;
+}
+
+#dropdownMenuButton1{
+    background-color: #000000;
+    border: 0;
+}
+
+#dropdownMenuButton2{
+    background-color: #000000;
+}
+
+#boton2{
+    background-color: #C4C4C4;
+    font-family: "Libre Baskerville";
+    font-size: 19px;
+    border-radius: 5em;
+    margin-bottom: 5px;
+}
+
+#boton3{
+    background-color: #D81E27;
+    font-family: "Libre Baskerville";
+    font-size: 19px;
+    border-radius: 5em;
+}
+
+#cuenta{
+    font-family: "Libre Baskerville";
+    font-size: 19px;
+}
+
+#linea{
+	border-top: 3px solid rgb(216,30,39);
+	position: relative;
+}
+
+#imagotipo{
+    width: 350px;
+    height: 100px;
+}
+
+#user{
+    width: 30px;
+    height: 30px;
+}
+/*FINAL BARRA DE NAVEGACION*/
+
+/*CUERPO DE LA PAGINA*/
+body{
+    background-color: black;
+    color: white;
+}
+
+/*IMAGEN GRANDE DE SERVICIOS*/
+#imagenservicios{
+    width: 100%;
+    height: 500px;
+}
+/*CONDICIONES <H1>*/
+h1{
+    font-weight:bold;
+    font-family: "Montserrat";
+    text-align: center;
+}
+/*CONDICIONES ETIQUETA <P>*/
+p{
+    font-family: "Libre Baskerville";
+    font-size: 32px;
+}
+
+/*CINDICIONES IMAGEN DE YOGA*/
+#yoga{
+    width: 100%;
+    height: 100%;
+
+}
+/*CINDICIONES IMAGEN DE BOXEO*/
+#boxeo{
+    width: 100%;
+    height: 100%;
+
+}
+/*CINDICIONES IMAGEN DE BOXEO*/
+#boxeo1{
+    width: 100%;
+    height: 100%;
+
+}
+/*CINDICIONES IMAGEN DE TRX*/
+#trx{
+    width: 100%;
+    height: 100%;
+
+}
+/*CINDICIONES IMAGEN DE ENTRENAMIENTO FUNCIONAL*/
+#entrenamientof{
+    width: 100%;
+    height: 100%;
+
+}
+/*CINDICIONES IMAGEN DE ENTRENAMIENTO FUNCIONAL*/
+#entrenamientof1{
+    width: 100%;
+    height: 100%;
+
+}
+
+/*LINEA ROJA*/
+#linea1{
+	border-top: 3px solid rgb(216,30,39);
+	position: relative;
+}
+
+
+/*BARRA LATERAL DE REDES SOCIALES*/
+
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook{
+    background: #2e406e;
+    border-radius: 1rem 0 0 0;
+}
+
+.icon-twitter{
+    background: #339dc5;
+}
+
+.icon-youtube{
+    background: #e83028;
+}
+
+.icon-instagram{
+    background: #3f60a5;
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+#facebook{
+    width: 30px;
+    height: 30px;
+}
+
+#youtube{
+    width: 30px;
+    height: 30px;
+}
+
+#twitter{
+    width: 30px;
+    height: 30px;
+}
+
+#instagram{
+    width: 30px;
+    height: 30px;
+}
+
+/*MAPS*/
+#maps{
+    width: 100%;
+    height: 350px;
+}
+

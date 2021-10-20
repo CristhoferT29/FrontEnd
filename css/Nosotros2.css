@@ -1,0 +1,359 @@
+body{
+    background-color: black;
+}
+#header1 {
+    background: #000000;
+    border-bottom: 3px solid #fe030e;
+    }
+    
+    #logo {
+        width: 100px;
+    
+    }
+    
+    #imago{
+        height: 70px;
+        width: 230px;
+    
+    }
+    
+    #cuerpo{
+        background: #000000;
+    
+    }
+    #cuerpoimg{
+        height: 500px;
+        width:100%;
+        margin-bottom: 30px;
+    
+    }
+    .texto1{
+        color: #ffffff;
+    }
+    .imagenes{
+        height: 50px;
+        width: 50px;
+    }
+    #cuerpo2{
+        background: #000000;
+        border-bottom: 3px solid #fe030e;
+    
+    }
+    
+    .proposito{
+    text-align: justify;
+    font-family: 'libre baskerville';
+    font-size: 28px;
+    
+    }
+    
+    .titulos{
+        font-family: 'monserrat extrabold';
+        font-size: 40px;
+    }
+    
+    #footer{
+        background: #000000;
+        text-align: center;
+        height: 40px;
+    }
+    
+    #www{
+        height: 30px;
+        width: 40px;
+    }
+    
+    .botones{
+        text-align: center;
+    }
+    /* hover sobre nosotros*/
+    #inicia:hover {
+        color:rgb(216,30,39);
+        border-right: 1px solid #bbb;
+        border-left: 1px solid #bbb;
+    }
+    
+    #inicia{
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        color: white;
+        text-decoration: None;
+        padding: 8px;
+    }
+    
+    #servicios:hover {
+        color:rgb(216,30,39);
+        border-right: 1px solid #bbb;
+        border-left: 1px solid #bbb;
+    }
+    
+    #servicios{
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        color: white;
+        text-decoration: None;
+        padding: 8px;
+    }
+    
+    #nosotros:hover {
+        color:rgb(216,30,39);
+        border-right: 1px solid #bbb;
+        border-left: 1px solid #bbb;
+    }
+    
+    #nosotros{
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        color: white;
+        text-decoration: None;
+        padding: 8px;
+    }
+    #iniciar{
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        color: white;
+        text-decoration: None;
+        padding: 8px;
+    }
+    
+    
+    /* BOTON DE LOS MODALES*/
+    #boton1{
+        background-color: #D81E27;
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        float: right;
+        border-radius: 5em;
+    }
+    
+    #boton2{
+        background-color: #C4C4C4;
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        border-radius: 5em;
+    }
+        
+    #boton3{
+        background-color: #D81E27;
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        float: right;
+        border-radius: 5em;
+        }
+        
+    
+    #registrarse:hover {
+        color:rgb(216,30,39);
+        border-right: 1px solid #bbb;
+        border-left: 1px solid #bbb;
+    }
+    
+    #registrarse{
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        color: white;
+        text-decoration: None;
+        padding: 8px;
+    }
+    
+    #iniciar:hover {
+        color:rgb(216,30,39);
+        border-right: 1px solid #bbb;
+        border-left: 1px solid #bbb;
+    }
+    
+    #iniciar{
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        color: white;
+        text-decoration: None;
+        padding: 8px;
+    }
+    #bienvenido{
+        color:rgb(216,30,39);
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        text-decoration: None;
+        padding: 8px;
+        cursor:default;
+    }
+    
+    #dropdownMenuButton1{
+        background-color: #000000;
+        border: 0;
+    }
+    
+    #dropdownMenuButton2{
+        background-color: #000000;
+    }
+    #user{
+        width: 30px;
+        height: 30px;
+    }
+    #boton2{
+        background-color: #C4C4C4;
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        border-radius: 5em;
+        margin-bottom: 5px;
+    }
+    
+    #boton3{
+        background-color: #D81E27;
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        border-radius: 5em;
+    }
+    #cuenta{
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+    }
+    
+    a:hover{
+        color:rgb(216,30,39);
+        border-right: 1px solid #bbb;
+        border-left: 1px solid #bbb;
+    }
+    
+    a{
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        color: white;
+        text-decoration: None;
+    
+    }
+    #boton3{
+        color: rgb(216,30,39);
+    }
+    
+    /* modal */
+    #modal{
+        background-color: #000000f1;
+    }
+    
+    #modal1{
+        background-color: #000000f1;
+    }
+    
+    #recipient-name{
+        background-color: #c4c4c4;
+        border-radius: 5em;
+    }
+    
+    #recipient-name1{
+        background-color: #c4c4c4;
+        border-radius: 5em;
+    }
+    
+    #recipient-name2{
+        background-color: #c4c4c4;
+        border-radius: 5em;
+    }
+    
+    #usuario{
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+    }
+    
+    #usuario1{
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+    }
+    
+    #usuario2{
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+    }
+    
+    #olvide{
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+    }
+    
+    #boton5{
+        background-color: #D81E27;
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        float: right;
+        border-radius: 5em;
+    }
+    
+    #boton8{
+        background-color: #D81E27;
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        float: right;
+        border-radius: 5em;
+    }
+    
+    #boton6{
+        background-color: #C4C4C4;
+        font-family: "Libre Baskerville";
+        font-size: 19px;
+        border-radius: 5em;
+    }
+    
+    /* SOCIAL BAR */
+    .social-bar{
+        position: fixed;
+        right: 0;
+        top: 35%;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        z-index: 100;
+    }
+    
+    .icon{
+        color: white;
+        text-decoration: none;
+        padding: .7rem;
+        display: flex;
+        transition: all .5s;
+    }
+    
+    .icon-facebook{
+        background: #2e406e;
+        border-radius: 1rem 0 0 0;
+    }
+    
+    .icon-twitter{
+        background: #339dc5;
+    }
+    
+    .icon-youtube{
+        background: #e83028;
+    }
+    
+    .icon-instagram{
+        background: #3f60a5;
+        border-radius: 0 0 0 1rem;
+    }
+    
+    .icon:hover{
+        padding-right: 3rem;
+        border-radius: 1rem 0 0 1rem;
+        box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+    }
+    
+    #facebook{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #youtube{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #twitter{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #instagram{
+        width: 30px;
+        height: 30px;
+    }
+    
